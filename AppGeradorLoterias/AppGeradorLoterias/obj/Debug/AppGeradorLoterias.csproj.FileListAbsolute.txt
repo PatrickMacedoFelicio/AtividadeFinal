@@ -10,3 +10,14 @@ C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
