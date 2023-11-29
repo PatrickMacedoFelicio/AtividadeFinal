@@ -61,16 +61,6 @@ namespace AppGeradorLoterias.Formularios
             }
         }
 
-        private void btLimpar_Click_1(object sender, EventArgs e)
-        {
-            numGerados.Clear();
-            dgvNumeros.DataSource = numGerados.ToList();
-            btGerar.Enabled = true;
-            lbPar.Text = "PARES";
-            lbImpar.Text = "IMPARES";
-            lbClass.Text = "CLASSIFIÇÃO";
-        }
-
         private void btSalvar_Click_1(object sender, EventArgs e)
         {
             var pasta = new XLWorkbook(@"C:\Users\patri\Excel\loteria.xlsx");
@@ -99,6 +89,18 @@ namespace AppGeradorLoterias.Formularios
             planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
 
             pasta.Save();
+
+            MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btLimpar_Click(object sender, EventArgs e)
+        {
+            numGerados.Clear();
+            dgvNumeros.DataSource = numGerados.ToList();
+            btGerar.Enabled = true;
+            lbPar.Text = "PARES";
+            lbImpar.Text = "IMPARES";
+            lbClass.Text = "CLASSIFIÇÃO";
         }
     }
 }

@@ -84,6 +84,8 @@ namespace AppGeradorLoterias.Formularios
             planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
 
             pasta.Save();
+
+            MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void AnalisarJogo(int par, int impar)

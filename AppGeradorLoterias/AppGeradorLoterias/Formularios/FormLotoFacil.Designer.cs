@@ -40,10 +40,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dgvNumeros = new System.Windows.Forms.DataGridView();
-            this.btLimpar = new System.Windows.Forms.Button();
-            this.btGerar = new System.Windows.Forms.Button();
             this.ORD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btLimpar = new System.Windows.Forms.Button();
+            this.btGerar = new System.Windows.Forms.Button();
             this.btSalvar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNumeros)).BeginInit();
             this.SuspendLayout();
@@ -139,25 +139,6 @@
             this.dgvNumeros.Size = new System.Drawing.Size(163, 375);
             this.dgvNumeros.TabIndex = 29;
             // 
-            // btLimpar
-            // 
-            this.btLimpar.Location = new System.Drawing.Point(26, 91);
-            this.btLimpar.Name = "btLimpar";
-            this.btLimpar.Size = new System.Drawing.Size(200, 23);
-            this.btLimpar.TabIndex = 28;
-            this.btLimpar.Text = "LIMPAR";
-            this.btLimpar.UseVisualStyleBackColor = true;
-            // 
-            // btGerar
-            // 
-            this.btGerar.Location = new System.Drawing.Point(26, 49);
-            this.btGerar.Name = "btGerar";
-            this.btGerar.Size = new System.Drawing.Size(200, 23);
-            this.btGerar.TabIndex = 27;
-            this.btGerar.Text = "GERAR NÚMEROS DA SORTE";
-            this.btGerar.UseVisualStyleBackColor = true;
-            this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
-            // 
             // ORD
             // 
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -177,6 +158,26 @@
             this.NÚMERO.MinimumWidth = 6;
             this.NÚMERO.Name = "NÚMERO";
             this.NÚMERO.Width = 125;
+            // 
+            // btLimpar
+            // 
+            this.btLimpar.Location = new System.Drawing.Point(26, 91);
+            this.btLimpar.Name = "btLimpar";
+            this.btLimpar.Size = new System.Drawing.Size(200, 23);
+            this.btLimpar.TabIndex = 28;
+            this.btLimpar.Text = "LIMPAR";
+            this.btLimpar.UseVisualStyleBackColor = true;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
+            // 
+            // btGerar
+            // 
+            this.btGerar.Location = new System.Drawing.Point(26, 49);
+            this.btGerar.Name = "btGerar";
+            this.btGerar.Size = new System.Drawing.Size(200, 23);
+            this.btGerar.TabIndex = 27;
+            this.btGerar.Text = "GERAR NÚMEROS DA SORTE";
+            this.btGerar.UseVisualStyleBackColor = true;
+            this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
             // 
             // btSalvar
             // 
