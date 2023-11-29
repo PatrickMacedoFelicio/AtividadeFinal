@@ -54,3 +54,4 @@ C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppG
 C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CopyComplete
 C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
 C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoMania.resources

@@ -23,5 +23,11 @@ namespace AppGeradorLoterias
             FormLotoFacil form = new FormLotoFacil();
             form.ShowDialog(); 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormLotoMania form = new FormLotoMania();
+            form.ShowDialog();
+        }
     }
 }
