@@ -29,5 +29,29 @@ namespace AppGeradorLoterias
             FormLotoMania form = new FormLotoMania();
             form.ShowDialog();
         }
+
+        private void btMega_Click(object sender, EventArgs e)
+        {
+            FormMega form = new FormMega();
+            form.ShowDialog();
+        }
+
+        private void btQuina_Click(object sender, EventArgs e)
+        {
+            FormQuina form = new FormQuina();
+            form.ShowDialog();
+        }
+
+        private void btDiaSorte_Click(object sender, EventArgs e)
+        {
+            FormDiadeSorte form = new FormDiadeSorte();
+            form.ShowDialog();
+        }
+
+        private void btSuperSete_Click(object sender, EventArgs e)
+        {
+            FormSuperSete form = new FormSuperSete();
+            form.ShowDialog();
+        }
     }
 }

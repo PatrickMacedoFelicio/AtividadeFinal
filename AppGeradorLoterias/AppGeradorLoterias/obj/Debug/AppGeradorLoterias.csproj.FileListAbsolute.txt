@@ -77,3 +77,7 @@ C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppG
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoMania.resources
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CopyComplete
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormDiadeSorte.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMega.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormQuina.resources
+C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormSuperSete.resources

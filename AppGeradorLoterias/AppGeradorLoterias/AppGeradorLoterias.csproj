@@ -127,6 +127,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormDiadeSorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormDiadeSorte.Designer.cs">
+      <DependentUpon>FormDiadeSorte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormLotoFacil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,17 +145,47 @@
     <Compile Include="Formularios\FormLotoMania.Designer.cs">
       <DependentUpon>FormLotoMania.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormMega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormMega.Designer.cs">
+      <DependentUpon>FormMega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormQuina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormQuina.Designer.cs">
+      <DependentUpon>FormQuina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormSuperSete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormSuperSete.Designer.cs">
+      <DependentUpon>FormSuperSete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegrasNegocios\NumerosDaSorte.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormDiadeSorte.resx">
+      <DependentUpon>FormDiadeSorte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormLotoFacil.resx">
       <DependentUpon>FormLotoFacil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormLotoMania.resx">
       <DependentUpon>FormLotoMania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormMega.resx">
+      <DependentUpon>FormMega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormQuina.resx">
+      <DependentUpon>FormQuina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormSuperSete.resx">
+      <DependentUpon>FormSuperSete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

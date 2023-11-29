@@ -102,6 +102,11 @@ namespace AppGeradorLoterias.Formularios
             lbImpar.Text = "IMPARES";
             lbClass.Text = "CLASSIFIÇÃO";
         }
+
+        private void btVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
 

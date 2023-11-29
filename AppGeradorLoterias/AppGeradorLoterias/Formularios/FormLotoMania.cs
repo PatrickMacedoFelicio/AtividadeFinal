@@ -101,5 +101,10 @@ namespace AppGeradorLoterias.Formularios
             if (impar == 8) { lbClass.Text = "Jogo Ruim!"; lbClass.ForeColor = Color.Red; }
             if (impar == 13) { lbClass.Text = "Jogo Ruim!"; lbClass.ForeColor = Color.Red; }
         }
+
+        private void btVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

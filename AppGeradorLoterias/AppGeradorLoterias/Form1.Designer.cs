@@ -46,6 +46,7 @@
             this.btQuina.TabIndex = 29;
             this.btQuina.Text = "QUINA";
             this.btQuina.UseVisualStyleBackColor = true;
+            this.btQuina.Click += new System.EventHandler(this.btQuina_Click);
             // 
             // btMega
             // 
@@ -57,6 +58,7 @@
             this.btMega.TabIndex = 28;
             this.btMega.Text = "MEGA SENA";
             this.btMega.UseVisualStyleBackColor = true;
+            this.btMega.Click += new System.EventHandler(this.btMega_Click);
             // 
             // btLotoFacil
             // 
@@ -92,6 +94,7 @@
             this.btDiaSorte.TabIndex = 31;
             this.btDiaSorte.Text = "DIA DE SORTE";
             this.btDiaSorte.UseVisualStyleBackColor = true;
+            this.btDiaSorte.Click += new System.EventHandler(this.btDiaSorte_Click);
             // 
             // btSuperSete
             // 
@@ -103,6 +106,7 @@
             this.btSuperSete.TabIndex = 32;
             this.btSuperSete.Text = "SUPER SETE";
             this.btSuperSete.UseVisualStyleBackColor = true;
+            this.btSuperSete.Click += new System.EventHandler(this.btSuperSete_Click);
             // 
             // Form1
             // 
@@ -116,6 +120,7 @@
             this.Controls.Add(this.btMega);
             this.Controls.Add(this.btLotoFacil);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
