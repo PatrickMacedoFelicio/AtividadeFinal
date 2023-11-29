@@ -40,10 +40,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dgvNumeros = new System.Windows.Forms.DataGridView();
-            this.ORD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btLimpar = new System.Windows.Forms.Button();
             this.btGerar = new System.Windows.Forms.Button();
+            this.ORD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btSalvar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNumeros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,25 +139,6 @@
             this.dgvNumeros.Size = new System.Drawing.Size(163, 375);
             this.dgvNumeros.TabIndex = 29;
             // 
-            // ORD
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ORD.DefaultCellStyle = dataGridViewCellStyle3;
-            this.ORD.HeaderText = "ORD";
-            this.ORD.MinimumWidth = 6;
-            this.ORD.Name = "ORD";
-            this.ORD.Visible = false;
-            this.ORD.Width = 125;
-            // 
-            // NÚMERO
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.NÚMERO.DefaultCellStyle = dataGridViewCellStyle4;
-            this.NÚMERO.HeaderText = "NÚMERO";
-            this.NÚMERO.MinimumWidth = 6;
-            this.NÚMERO.Name = "NÚMERO";
-            this.NÚMERO.Width = 125;
-            // 
             // btLimpar
             // 
             this.btLimpar.Location = new System.Drawing.Point(26, 91);
@@ -176,11 +158,44 @@
             this.btGerar.UseVisualStyleBackColor = true;
             this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
             // 
+            // ORD
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ORD.DefaultCellStyle = dataGridViewCellStyle3;
+            this.ORD.HeaderText = "ORD";
+            this.ORD.MinimumWidth = 6;
+            this.ORD.Name = "ORD";
+            this.ORD.Visible = false;
+            this.ORD.Width = 125;
+            // 
+            // NÚMERO
+            // 
+            this.NÚMERO.DataPropertyName = "Numero";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.NÚMERO.DefaultCellStyle = dataGridViewCellStyle4;
+            this.NÚMERO.HeaderText = "NÚMERO";
+            this.NÚMERO.MinimumWidth = 6;
+            this.NÚMERO.Name = "NÚMERO";
+            this.NÚMERO.Width = 125;
+            // 
+            // btSalvar
+            // 
+            this.btSalvar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSalvar.ForeColor = System.Drawing.Color.Purple;
+            this.btSalvar.Location = new System.Drawing.Point(26, 348);
+            this.btSalvar.Name = "btSalvar";
+            this.btSalvar.Size = new System.Drawing.Size(200, 30);
+            this.btSalvar.TabIndex = 39;
+            this.btSalvar.Text = "Salvar em Excel";
+            this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click_1);
+            // 
             // FormLotoFacil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 450);
+            this.Controls.Add(this.btSalvar);
             this.Controls.Add(this.lbClass);
             this.Controls.Add(this.lbImpar);
             this.Controls.Add(this.lbPar);
@@ -209,5 +224,6 @@
         private System.Windows.Forms.Button btGerar;
         private System.Windows.Forms.DataGridViewTextBoxColumn ORD;
         private System.Windows.Forms.DataGridViewTextBoxColumn NÚMERO;
+        private System.Windows.Forms.Button btSalvar;
     }
 }

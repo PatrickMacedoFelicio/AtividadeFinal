@@ -6,8 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AppGeradorLoterias.RegrasNegocios;
 using System.Windows.Forms;
-using AppGeradorLoterias.RegrasDeNegocios;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.ExtendedProperties;
 
@@ -61,7 +61,17 @@ namespace AppGeradorLoterias.Formularios
             }
         }
 
-        private void btSalvar_Click(object sender, EventArgs e)
+        private void btLimpar_Click_1(object sender, EventArgs e)
+        {
+            numGerados.Clear();
+            dgvNumeros.DataSource = numGerados.ToList();
+            btGerar.Enabled = true;
+            lbPar.Text = "PARES";
+            lbImpar.Text = "IMPARES";
+            lbClass.Text = "CLASSIFIÇÃO";
+        }
+
+        private void btSalvar_Click_1(object sender, EventArgs e)
         {
             var pasta = new XLWorkbook(@"C:\Users\patri\Excel\loteria.xlsx");
 
@@ -89,16 +99,6 @@ namespace AppGeradorLoterias.Formularios
             planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
 
             pasta.Save();
-        }
-
-        private void btLimpar_Click_1(object sender, EventArgs e)
-        {
-            numGerados.Clear();
-            dgvNumeros.DataSource = numGerados.ToList();
-            btGerar.Enabled = true;
-            lbPar.Text = "PARES";
-            lbImpar.Text = "IMPARES";
-            lbClass.Text = "CLASSIFIÇÃO";
         }
     }
 }
