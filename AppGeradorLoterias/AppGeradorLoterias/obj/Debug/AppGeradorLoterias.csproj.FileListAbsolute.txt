@@ -10,3 +10,15 @@ C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
 C:\Users\reina\OneDrive\Área de Trabalho\Documentos\projetos aula\LPV 1\Para os alunos\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
