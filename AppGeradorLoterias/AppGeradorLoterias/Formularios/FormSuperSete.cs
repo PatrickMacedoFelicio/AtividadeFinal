@@ -135,10 +135,10 @@ namespace AppGeradorLoterias.Formularios
         private void btGerar_Click(object sender, EventArgs e)
         {
             int contador = 0, qtdPar = 0, qtdImpar = 0, temporario = 0;
-            string[] numCol = new string[6];
+            string[] numCol = new string[7];
             Random randomico = new Random(); //gerar numeros aleatorios
 
-            while (contador < 6)
+            while (contador < 7)
             {
                 temporario = randomico.Next(0, 10);
 
@@ -174,9 +174,9 @@ namespace AppGeradorLoterias.Formularios
 
         private void btSalvar_Click(object sender, EventArgs e)
         {
-            var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
+            var pasta = new XLWorkbook(@"C:\Users\patri\Excel\loteria.xlsx");
 
-            var planilha = pasta.Worksheet(5);
+            var planilha = pasta.Worksheet(4);
 
             int qtdColunas = planilha.ColumnsUsed().Count();
 
@@ -198,6 +198,8 @@ namespace AppGeradorLoterias.Formularios
             planilha.Cell(linhas, colunregistro).Value = lbImpar.Text.Substring(17);
             colunregistro++;
             planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
+            colunregistro++;
+            planilha.Cell(linhas, colunregistro).Value = lbAcertos.Text;
 
             pasta.Save();
 
