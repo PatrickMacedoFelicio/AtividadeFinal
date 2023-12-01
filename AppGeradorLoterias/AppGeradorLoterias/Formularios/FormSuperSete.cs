@@ -92,7 +92,6 @@ namespace AppGeradorLoterias.Formularios
                 case 3:
                     lbAcertos.Text = "ACERTOS: 3";
                     break;
-
                 case 4:
                     lbAcertos.Text = "ACERTOS: 4";
                     break;
