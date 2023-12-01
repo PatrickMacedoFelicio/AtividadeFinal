@@ -169,11 +169,12 @@ namespace AppGeradorLoterias.Formularios
             lbPar.Text = "PARES";
             lbImpar.Text = "IMPARES";
             lbClass.Text = "CLASSIFIÇÃO";
+            lbAcertos.Text = "ACERTOS";
         }
 
         private void btSalvar_Click(object sender, EventArgs e)
         {
-            var pasta = new XLWorkbook(@"C:\Users\patri\Excel\loteria.xlsx");
+            var pasta = new XLWorkbook(@"C:\Users\Public\Excel\Loteria.xlsx");
 
             var planilha = pasta.Worksheet(4);
 

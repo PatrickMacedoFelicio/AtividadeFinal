@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btVoltar = new System.Windows.Forms.Button();
             this.btSalvar = new System.Windows.Forms.Button();
             this.lbClass = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btLimpar = new System.Windows.Forms.Button();
             this.btGerar = new System.Windows.Forms.Button();
+            this.btGerar15 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNumeros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,46 +129,46 @@
             // 
             // dgvNumeros
             // 
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.Plum;
-            this.dgvNumeros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNumeros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Plum;
+            this.dgvNumeros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNumeros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvNumeros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNumeros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ORD,
             this.NÚMERO});
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNumeros.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNumeros.DefaultCellStyle = dataGridViewCellStyle11;
             this.dgvNumeros.Location = new System.Drawing.Point(288, 63);
             this.dgvNumeros.Name = "dgvNumeros";
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNumeros.RowHeadersDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNumeros.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvNumeros.RowHeadersWidth = 51;
             this.dgvNumeros.Size = new System.Drawing.Size(163, 375);
             this.dgvNumeros.TabIndex = 62;
             // 
             // ORD
             // 
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ORD.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ORD.DefaultCellStyle = dataGridViewCellStyle9;
             this.ORD.HeaderText = "ORD";
             this.ORD.MinimumWidth = 6;
             this.ORD.Name = "ORD";
@@ -177,8 +178,8 @@
             // NÚMERO
             // 
             this.NÚMERO.DataPropertyName = "Numero";
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.NÚMERO.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.NÚMERO.DefaultCellStyle = dataGridViewCellStyle10;
             this.NÚMERO.HeaderText = "NÚMERO";
             this.NÚMERO.MinimumWidth = 6;
             this.NÚMERO.Name = "NÚMERO";
@@ -186,7 +187,7 @@
             // 
             // btLimpar
             // 
-            this.btLimpar.Location = new System.Drawing.Point(35, 91);
+            this.btLimpar.Location = new System.Drawing.Point(35, 107);
             this.btLimpar.Name = "btLimpar";
             this.btLimpar.Size = new System.Drawing.Size(200, 23);
             this.btLimpar.TabIndex = 61;
@@ -200,15 +201,26 @@
             this.btGerar.Name = "btGerar";
             this.btGerar.Size = new System.Drawing.Size(200, 23);
             this.btGerar.TabIndex = 60;
-            this.btGerar.Text = "GERAR NÚMEROS DA SORTE";
+            this.btGerar.Text = "GERAR 6 NÚMEROS ";
             this.btGerar.UseVisualStyleBackColor = true;
             this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
+            // 
+            // btGerar15
+            // 
+            this.btGerar15.Location = new System.Drawing.Point(35, 78);
+            this.btGerar15.Name = "btGerar15";
+            this.btGerar15.Size = new System.Drawing.Size(200, 23);
+            this.btGerar15.TabIndex = 69;
+            this.btGerar15.Text = "GERAR ATÉ 15 NÚMEROS";
+            this.btGerar15.UseVisualStyleBackColor = true;
+            this.btGerar15.Click += new System.EventHandler(this.btGerar15_Click);
             // 
             // FormMega
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 450);
+            this.Controls.Add(this.btGerar15);
             this.Controls.Add(this.btSalvar);
             this.Controls.Add(this.lbClass);
             this.Controls.Add(this.lbImpar);
@@ -242,5 +254,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NÚMERO;
         private System.Windows.Forms.Button btLimpar;
         private System.Windows.Forms.Button btGerar;
+        private System.Windows.Forms.Button btGerar15;
     }
 }

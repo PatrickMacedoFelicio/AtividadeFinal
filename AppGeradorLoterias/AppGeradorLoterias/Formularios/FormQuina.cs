@@ -79,7 +79,7 @@ namespace AppGeradorLoterias.Formularios
         {
             var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
 
-            var planilha = pasta.Worksheet(4);
+            var planilha = pasta.Worksheet(6);
 
             int qtdColunas = planilha.ColumnsUsed().Count();
 

@@ -41,6 +41,28 @@ namespace AppGeradorLoterias.Formularios
 
         private void btGerar_Click(object sender, EventArgs e)
         {
+            int contador = 0, qtdPar = 0, qtdImpar = 0, temporario = 0;
+            Random randomico = new Random(); //gerar numeros aleatorios
+
+            while (contador < 6)
+            {
+                temporario = randomico.Next(1, 61);
+
+                if (numGerados.Where(n => n.Numero == temporario).Count() == 0)
+                {
+                    NumerosDaSorte numeroSorteado = new NumerosDaSorte();
+                    numeroSorteado.Numero = temporario;
+                    numGerados.Add(numeroSorteado);
+                    if (temporario % 2 == 0) qtdPar++;
+                    if (temporario % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+                dgvNumeros.DataSource = numGerados.OrderBy(ns => ns.Numero).ToList();
+                btGerar.Enabled = false;
+                lbPar.Text = "Números Pares: " + qtdPar;
+                lbImpar.Text = "Números Ímpares: " + qtdImpar;
+                AnalisarJogo(qtdPar, qtdImpar);
+            }
 
         }
 
@@ -58,7 +80,7 @@ namespace AppGeradorLoterias.Formularios
         {
             var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
 
-            var planilha = pasta.Worksheet(6);
+            var planilha = pasta.Worksheet(5);
 
             int qtdColunas = planilha.ColumnsUsed().Count();
 
@@ -84,6 +106,32 @@ namespace AppGeradorLoterias.Formularios
             pasta.Save();
 
             MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btGerar15_Click(object sender, EventArgs e)
+        {
+            int contador = 0, qtdPar = 0, qtdImpar = 0, temporario = 0;
+            Random randomico = new Random(); //gerar numeros aleatorios
+
+            while (contador < 15)
+            {
+                temporario = randomico.Next(1, 61);
+
+                if (numGerados.Where(n => n.Numero == temporario).Count() == 0)
+                {
+                    NumerosDaSorte numeroSorteado = new NumerosDaSorte();
+                    numeroSorteado.Numero = temporario;
+                    numGerados.Add(numeroSorteado);
+                    if (temporario % 2 == 0) qtdPar++;
+                    if (temporario % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+                dgvNumeros.DataSource = numGerados.OrderBy(ns => ns.Numero).ToList();
+                btGerar.Enabled = false;
+                lbPar.Text = "Números Pares: " + qtdPar;
+                lbImpar.Text = "Números Ímpares: " + qtdImpar;
+                AnalisarJogo(qtdPar, qtdImpar);
+            }
         }
     }
 }
