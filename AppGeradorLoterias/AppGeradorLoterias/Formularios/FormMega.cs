@@ -108,6 +108,78 @@ namespace AppGeradorLoterias.Formularios
             MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        /*private void btSalvar_Click(object sender, EventArgs e)
+        {
+            btGerar.Click += Veri;
+            btGerar15.Click += Veri;
+        }
+
+        public void Veri(object sender, EventArgs e)
+        {
+            if (sender == btGerar)
+            {
+                var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
+
+                var planilha = pasta.Worksheet(6);
+
+                int qtdColunas = planilha.ColumnsUsed().Count();
+
+                int qtdLinhas = planilha.RowsUsed().Count();
+
+                int colunregistro = qtdColunas + 1;
+
+                int linhas = qtdLinhas + 1;
+
+                colunregistro = 1;
+
+                foreach (var i in numGerados.OrderBy(ns => ns.Numero).ToList())
+                {
+                    planilha.Cell(linhas, colunregistro).Value = i.Numero;
+                    colunregistro++;
+                }
+                planilha.Cell(linhas, colunregistro).Value = lbPar.Text.Substring(15);
+                colunregistro++;
+                planilha.Cell(linhas, colunregistro).Value = lbImpar.Text.Substring(17);
+                colunregistro++;
+                planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
+
+                pasta.Save();
+
+                MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (sender == btGerar15)
+            {
+                var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
+
+                var planilha = pasta.Worksheet(5);
+
+                int qtdColunas = planilha.ColumnsUsed().Count();
+
+                int qtdLinhas = planilha.RowsUsed().Count();
+
+                int colunregistro = qtdColunas + 1;
+
+                int linhas = qtdLinhas + 1;
+
+                colunregistro = 1;
+
+                foreach (var i in numGerados.OrderBy(ns => ns.Numero).ToList())
+                {
+                    planilha.Cell(linhas, colunregistro).Value = i.Numero;
+                    colunregistro++;
+                }
+                planilha.Cell(linhas, colunregistro).Value = lbPar.Text.Substring(15);
+                colunregistro++;
+                planilha.Cell(linhas, colunregistro).Value = lbImpar.Text.Substring(17);
+                colunregistro++;
+                planilha.Cell(linhas, colunregistro).Value = lbClass.Text;
+
+                pasta.Save();
+
+                MessageBox.Show("Os dados foram salvos no Excel", "Salvar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }*/
+
         private void btGerar15_Click(object sender, EventArgs e)
         {
             int contador = 0, qtdPar = 0, qtdImpar = 0, temporario = 0;
