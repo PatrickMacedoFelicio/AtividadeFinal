@@ -81,3 +81,7 @@ C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppG
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMega.resources
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormQuina.resources
 C:\Users\Public\trabalhoFinalLPV\finalLPV\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormSuperSete.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormDiadeSorte.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMega.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormQuina.resources
+C:\Users\patri\OneDrive\Documentos\Clones\AtividadeFinal\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormSuperSete.resources
