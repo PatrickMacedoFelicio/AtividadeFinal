@@ -18,6 +18,7 @@ namespace AppGeradorLoterias.Formularios
         public FormDiadeSorte()
         {
             InitializeComponent();
+            dgvNumeros.AlternatingRowsDefaultCellStyle.BackColor = Color.Gray;
         }
 
         private void btVoltar_Click(object sender, EventArgs e)

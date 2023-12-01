@@ -18,6 +18,7 @@ namespace AppGeradorLoterias.Formularios
         public FormQuina()
         {
             InitializeComponent();
+            dgvNumeros.AlternatingRowsDefaultCellStyle.BackColor = Color.RoyalBlue;
         }
 
         private void btVoltar_Click(object sender, EventArgs e)

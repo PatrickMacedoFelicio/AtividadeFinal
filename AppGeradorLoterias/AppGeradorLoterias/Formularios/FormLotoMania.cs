@@ -18,6 +18,7 @@ namespace AppGeradorLoterias.Formularios
         public FormLotoMania()
         {
             InitializeComponent();
+            dgvNumeros.AlternatingRowsDefaultCellStyle.BackColor = Color.Orange;
         }
 
         private void btGerar_Click(object sender, EventArgs e)
@@ -58,7 +59,7 @@ namespace AppGeradorLoterias.Formularios
 
         private void btSalvar_Click(object sender, EventArgs e)
         {
-            var pasta = new XLWorkbook(@"C:\Users\patri\Excel\loteria.xlsx");
+            var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
 
             var planilha = pasta.Worksheet(2);
 

@@ -174,7 +174,7 @@ namespace AppGeradorLoterias.Formularios
 
         private void btSalvar_Click(object sender, EventArgs e)
         {
-            var pasta = new XLWorkbook(@"C:\Users\Public\Excel\Loteria.xlsx");
+            var pasta = new XLWorkbook(@"C:\Users\Public\Excel\loteria.xlsx");
 
             var planilha = pasta.Worksheet(4);
 
